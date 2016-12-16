@@ -8,7 +8,7 @@ function hook_persistags_render_linklist($data, $conf){
         $tags = explode(',', $conf->get('plugins.FAVORITE_TAGS'));
 
         foreach ($tags as $tag) {
-            $html .= '<a href="?searchtags=' . $tag . '" class="favorite-tag" style="float:left;">' . $tag . '</a>';
+            $html .= '<a href="?searchtags=' . urlencode($tag) . '" class="favorite-tag" style="float:left;">' . $tag . '</a>';
         }
 
         $html .= '</div><hr>';
