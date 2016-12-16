@@ -1,0 +1,3 @@
+description="Adds your favorite tags to your homepage."
+parameters="FAVORITE_TAGS"
+parameter.FAVORITE_TAGS="Your tags separated by a comma."
