@@ -1,6 +1,6 @@
 # Shaarli Persistags plugin
 
-**Persistags** is a plugin that displays a short list of tags on the homepage, when you are logged in. It allows quick access to your preferred tags.
+**Persistags** is a plugin for [Shaarli](https://github.com/shaarli/shaarli) that displays a short list of tags on the homepage, when you are logged in. It allows quick access to your preferred tags.
 
 Example with Shaarli Material theme:
 
